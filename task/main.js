@@ -37,7 +37,7 @@ const formatRoom = $room => {
   };
 };
 
-const PIXIV_OFFICE_COORDINATE = {
+const OFFICE_COORDINATE = {
   latitude: 35.6809695,
   longitude: 139.7045637
 };
@@ -90,7 +90,7 @@ const calcDistanceFromOffice = mansion =>
 
         const distance = geolib.getDistance(
           { latitude: y, longitude: x },
-          PIXIV_OFFICE_COORDINATE
+          OFFICE_COORDINATE
         );
 
         mansion.distance = distance;
