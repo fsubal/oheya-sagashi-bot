@@ -1,0 +1,12 @@
+{
+  "name": "mansion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "subal f <subal@pixiv.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio-httpcli": "^0.7.2",
+    "express": "^4.16.2",
+    "knex": "^0.14.4"
+  }
+}
