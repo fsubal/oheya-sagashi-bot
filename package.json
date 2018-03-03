@@ -4,9 +4,16 @@
   "main": "index.js",
   "author": "subal f <subal@pixiv.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "NODE_ENV=development node ./index.js"
+  },
   "dependencies": {
+    "axios": "^0.18.0",
     "cheerio-httpcli": "^0.7.2",
+    "dotenv": "^5.0.1",
     "express": "^4.16.2",
+    "geolib": "^2.0.24",
     "knex": "^0.14.4"
   }
 }
